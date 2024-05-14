@@ -247,7 +247,6 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, auto);
-  /*grid-template-rows: 260px 315px 428px;*/
   gap: 20px;
   align-items: stretch;
   margin-bottom: 67px;
@@ -398,5 +397,119 @@
   .footer:before {
     bottom: 0;
     left: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+
+  .header__theme-menu-list {
+    padding-top: 18%;
+  }
+
+  .header:before {
+    left: 10px;
+  }
+
+  .header__heading {
+    font-size: 116px;
+    margin-left: 0;
+    padding-top: 60px;
+  }
+
+  .header {
+    min-height: 660px;
+  }
+
+  .header__text {
+    max-width: 100%;
+    margin-top: 15%;
+    margin-bottom: 0;
+  }
+
+  .top-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .reasons-heading {
+    max-width: 100%;
+  }
+
+  .bottom-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .gallery-list {
+    display: flex;
+    align-items: stretch;
+    justify-content: stretch;
+    flex-direction: column;
+    gap: 7px;
+  }
+
+  .sunset {
+    max-height: 100%;
+  }
+
+  .ice-cream {
+    max-height: 100%;
+  }
+
+  .tape {
+    max-height: 100%;
+  }
+
+  .books {
+    max-height: 100%;
+  }
+
+  .street {
+    max-height: 100%;
+  }
+
+  .main {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+
+  .top-section {
+    margin-bottom: 50px;
+  }
+
+  .reasons {
+    margin-bottom: 50px;
+  }
+
+  .bottom-section {
+    margin-bottom: 50px;
+  }
+
+  .gallery__title {
+    margin-bottom: 10px;
+  }
+
+  .footer {
+    min-height: 680px;
+  }
+
+  .footer:after {
+    right: 10px;
+  }
+
+  .footer:before {
+    bottom: 10px;
+    left: 10px;
+  }
+
+  .footer-text {
+    padding-top: 0;
   }
 }
