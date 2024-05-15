@@ -202,7 +202,7 @@
   grid-template-columns: 32% 1fr;
   grid-template-rows: repeat(5, auto);
   gap: 20px;
-  margin-bottom: 80px;
+  margin-bottom: 85px;
   grid-template-areas:
     'heading row-1'
     '... row-2'
@@ -269,20 +269,23 @@
 
 .sunset {
   grid-area: sunset;
+  max-height: 260px;
 }
 
 .ice-cream {
   grid-area: ice;
+  margin-bottom: 5px;
 }
 
 .tape {
   grid-area: tape;
-  max-height: 768px;
+  max-height: 766px;
 }
 
 .books {
   grid-area: books;
-  max-height: 315px;
+  max-height: 314px;
+  margin-bottom: 5px;
 }
 
 .street {
@@ -328,7 +331,6 @@
   color: #db00ff;
   text-shadow: 4px 4px var(--accent-color);
   font-weight: 700;
-  /*margin-top: 50px;*/
 }
 
 @media screen and (max-width: 768px) {
