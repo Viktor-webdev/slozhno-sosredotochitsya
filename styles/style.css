@@ -328,7 +328,7 @@
   color: #db00ff;
   text-shadow: 4px 4px var(--accent-color);
   font-weight: 700;
-  margin-top: 50px;
+  /*margin-top: 50px;*/
 }
 
 @media screen and (max-width: 768px) {
