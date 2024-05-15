@@ -197,7 +197,7 @@
   grid-area: col-3;
 }
 
-.bottom-section {
+.bottom-sec {
   display: grid;
   grid-template-columns: 32% 1fr;
   grid-template-rows: repeat(5, auto);
@@ -362,7 +362,7 @@
     max-width: 30%;
   }
 
-  .bottom-section {
+  .bottom-sec {
     margin-bottom: 83px;
   }
 
@@ -439,7 +439,7 @@
     max-width: 100%;
   }
 
-  .bottom-section {
+  .bottom-sec {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -488,7 +488,7 @@
     margin-bottom: 50px;
   }
 
-  .bottom-section {
+  .bottom-sec {
     margin-bottom: 50px;
   }
 
