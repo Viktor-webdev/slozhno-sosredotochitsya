@@ -202,7 +202,7 @@
   grid-template-columns: 32% 1fr;
   grid-template-rows: repeat(5, auto);
   gap: 20px;
-  margin-bottom: 70px;
+  margin-bottom: 80px;
   grid-template-areas:
     'heading row-1'
     '... row-2'
@@ -328,6 +328,7 @@
   color: #db00ff;
   text-shadow: 4px 4px var(--accent-color);
   font-weight: 700;
+  margin-top: 50px;
 }
 
 @media screen and (max-width: 768px) {
