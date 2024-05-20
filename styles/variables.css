@@ -1,6 +1,33 @@
 :root {
-  --bg-color: #000028;
-  --accent-color: #ff0070;
-  --main-color: #f1b2ce;
-  --main-font: 'IBM Plex mono', Arial, sans-serif;
+  --main-font: 'IBM Plex mono';
+}
+
+@media screen and (prefers-color-scheme: dark) {
+  :root {
+    --bg-image: url(../images/cover-image-dark.png);
+    --accent: #ff0070;
+    --secondary-color: #ff0070;
+    --heading-color: #ff0070;
+    --link-shadow: #ff0070;
+    --text-color: #f1b2ce;
+    --title-color: #db00ff;
+    --shadow-color: #ff0070;
+    --bg-color: #000028;
+    --rec-color: var(--shadow-color);
+  }
+}
+
+@media screen and (prefers-color-scheme: light) {
+  :root {
+    --bg-image: url(../images/cover-image-light.png);
+    --accent: #353430;
+    --secondary-color: #fe8cca;
+    --heading-color: #353430;
+    --text-color: #353430;
+    --link-shadow: #fe8cca;
+    --title-color: #ffc2e6;
+    --shadow-color: #ff0070;
+    --title-decor: #ff8dcb;
+    --bg-color: #fff1f7;
+  }
 }
