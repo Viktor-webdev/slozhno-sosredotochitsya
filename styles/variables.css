@@ -1,5 +1,5 @@
 :root {
-  --main-font: 'IBM Plex mono';
+  --main-font: 'IBM Plex mono', Arial, sans-serif;
 }
 
 @media screen and (prefers-color-scheme: dark) {

@@ -92,10 +92,12 @@
 }
 
 .header__theme-menu-button:focus {
+  outline: none;
   border: none;
 }
 
 .header__theme-menu-button:focus-visible {
+  outline: none;
   border-bottom: 1px solid var(--accent);
 }
 
@@ -118,7 +120,7 @@
 .header__text {
   font-size: 18px;
   font-weight: 700;
-  line-height: 110%;
+  line-height: 130%;
   max-width: 50%;
   margin-top: 11.6%;
   margin-left: auto;
@@ -175,7 +177,15 @@
 }
 
 .text-link:hover {
-  text-decoration: underline;
+  border-bottom: 1px solid var(--text-color);
+}
+
+.text-link:focus {
+  outline: none;
+}
+
+.text-link:focus-visible {
+  border: 1px solid var(--text-color);
 }
 
 .reasons {
@@ -213,7 +223,7 @@
   margin-bottom: 80px;
   grid-template-areas:
     'heading advices'
-    '... row-1'
+    'heading row-1'
     '... row-2'
     '... row-3'
     '... row-4'
@@ -364,7 +374,7 @@
   }
 
   .main {
-    margin: 56px auto;
+    margin: 43px auto 56px;
     max-width: 1024px;
   }
 

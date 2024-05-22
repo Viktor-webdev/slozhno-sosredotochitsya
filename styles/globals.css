@@ -12,7 +12,7 @@ body {
   max-inline-size: 1440px;
   margin: 0 auto;
   background-color: var(--bg-color);
-  font-family: var(--main-font);
+  font-family: var(--main-font, 'Arial', sans-serif);
   font-weight: normal;
 }
 
